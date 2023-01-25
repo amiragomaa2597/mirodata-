@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>microData</h2>
+    <!-- https://schema.org/Organization -->
+    <!-- https://validator.schema.org/ -->
+    <div itemscope itemtype="http://data-vocabulary.org/Organization">
+      <h2 itemprop="name">SD,Gaming CoE,ITI</h2>
+      <span itemprop="tel">35355695</span>
+      <span itemprop="url">http://www.iti.gov.eg/</span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+        blanditiis dolor iste, ipsum tempore vitae repellat, fugit quo sapiente
+        at nisi sequi animi eius consequatur reprehenderit, tempora in
+        reiciendis voluptatum?
+      </p>
+      <div itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+        <span itemprop="region">smart village</span>
+        <span itemprop="street-address">km 28 cairo-alexandri desert road</span>
+        <span itemprop="country-name">Egypt</span>
+        <span itemprop="postal-code">11371</span>
+        
+      </div>
+      <div itemscope itemprop="geo" itemtype="http://data-vocabulary.org/Geo">
+        <span itemprop="latitude">38.5323N</span>
+        <span itemprop="longitude">77.0040N</span>
+      </div>
+    </div>
+  </body>
+</html>
